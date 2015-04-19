@@ -15,6 +15,7 @@
 		8F9DE6D41ADF580C008599D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DE6D31ADF580C008599D8 /* Images.xcassets */; };
 		8F9DE6D71ADF580C008599D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DE6D51ADF580C008599D8 /* LaunchScreen.xib */; };
 		8F9DE6E31ADF580C008599D8 /* Missile_EscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DE6E21ADF580C008599D8 /* Missile_EscapeTests.swift */; };
+		8F9DE6F71ADF730A008599D8 /* productImgs in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DE6F61ADF730A008599D8 /* productImgs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8F9DE6DC1ADF580C008599D8 /* Missile EscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Missile EscapeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9DE6E11ADF580C008599D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9DE6E21ADF580C008599D8 /* Missile_EscapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile_EscapeTests.swift; sourceTree = "<group>"; };
+		8F9DE6F61ADF730A008599D8 /* productImgs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = productImgs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				8F9DE6D01ADF580C008599D8 /* Main.storyboard */,
 				8F9DE6D31ADF580C008599D8 /* Images.xcassets */,
 				8F9DE6D51ADF580C008599D8 /* LaunchScreen.xib */,
+				8F9DE6F61ADF730A008599D8 /* productImgs */,
 				8F9DE6C61ADF580C008599D8 /* Supporting Files */,
 			);
 			path = "Missile Escape";
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F9DE6D71ADF580C008599D8 /* LaunchScreen.xib in Resources */,
+				8F9DE6F71ADF730A008599D8 /* productImgs in Resources */,
 				8F9DE6D41ADF580C008599D8 /* Images.xcassets in Resources */,
 				8F9DE6CB1ADF580C008599D8 /* GameScene.sks in Resources */,
 				8F9DE6D21ADF580C008599D8 /* Main.storyboard in Resources */,
