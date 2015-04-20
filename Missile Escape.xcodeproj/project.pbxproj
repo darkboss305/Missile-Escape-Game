@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F4E428F1AE53BF600890FDF /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F4E428E1AE53BF600890FDF /* Entitlements.plist */; };
+		8F8FC8DD1AE446C5005F1899 /* ppimgs in Resources */ = {isa = PBXBuildFile; fileRef = 8F8FC8DC1AE446C5005F1899 /* ppimgs */; };
 		8F9DE6C91ADF580C008599D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DE6C81ADF580C008599D8 /* AppDelegate.swift */; };
 		8F9DE6CB1ADF580C008599D8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DE6CA1ADF580C008599D8 /* GameScene.sks */; };
 		8F9DE6CD1ADF580C008599D8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DE6CC1ADF580C008599D8 /* GameScene.swift */; };
@@ -15,7 +17,6 @@
 		8F9DE6D41ADF580C008599D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DE6D31ADF580C008599D8 /* Images.xcassets */; };
 		8F9DE6D71ADF580C008599D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DE6D51ADF580C008599D8 /* LaunchScreen.xib */; };
 		8F9DE6E31ADF580C008599D8 /* Missile_EscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DE6E21ADF580C008599D8 /* Missile_EscapeTests.swift */; };
-		8F9DE6F71ADF730A008599D8 /* productImgs in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DE6F61ADF730A008599D8 /* productImgs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F4E428E1AE53BF600890FDF /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8F8FC8DC1AE446C5005F1899 /* ppimgs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ppimgs; sourceTree = "<group>"; };
 		8F9DE6C31ADF580C008599D8 /* Missile Escape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Missile Escape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9DE6C71ADF580C008599D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9DE6C81ADF580C008599D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +44,6 @@
 		8F9DE6DC1ADF580C008599D8 /* Missile EscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Missile EscapeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9DE6E11ADF580C008599D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F9DE6E21ADF580C008599D8 /* Missile_EscapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile_EscapeTests.swift; sourceTree = "<group>"; };
-		8F9DE6F61ADF730A008599D8 /* productImgs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = productImgs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		8F9DE6BA1ADF580B008599D8 = {
 			isa = PBXGroup;
 			children = (
+				8F4E428E1AE53BF600890FDF /* Entitlements.plist */,
 				8F9DE6C51ADF580C008599D8 /* Missile Escape */,
 				8F9DE6DF1ADF580C008599D8 /* Missile EscapeTests */,
 				8F9DE6C41ADF580C008599D8 /* Products */,
@@ -90,7 +93,7 @@
 				8F9DE6D01ADF580C008599D8 /* Main.storyboard */,
 				8F9DE6D31ADF580C008599D8 /* Images.xcassets */,
 				8F9DE6D51ADF580C008599D8 /* LaunchScreen.xib */,
-				8F9DE6F61ADF730A008599D8 /* productImgs */,
+				8F8FC8DC1AE446C5005F1899 /* ppimgs */,
 				8F9DE6C61ADF580C008599D8 /* Supporting Files */,
 			);
 			path = "Missile Escape";
@@ -201,8 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4E428F1AE53BF600890FDF /* Entitlements.plist in Resources */,
+				8F8FC8DD1AE446C5005F1899 /* ppimgs in Resources */,
 				8F9DE6D71ADF580C008599D8 /* LaunchScreen.xib in Resources */,
-				8F9DE6F71ADF730A008599D8 /* productImgs in Resources */,
 				8F9DE6D41ADF580C008599D8 /* Images.xcassets in Resources */,
 				8F9DE6CB1ADF580C008599D8 /* GameScene.sks in Resources */,
 				8F9DE6D21ADF580C008599D8 /* Main.storyboard in Resources */,
@@ -284,7 +288,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -301,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +333,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -337,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -349,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Missile Escape/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -359,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Missile Escape/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -417,6 +427,7 @@
 				8F9DE6E81ADF580C008599D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F9DE6E91ADF580C008599D8 /* Build configuration list for PBXNativeTarget "Missile EscapeTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +436,7 @@
 				8F9DE6EB1ADF580C008599D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
